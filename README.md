@@ -38,3 +38,13 @@ The masked image is sent to 'hough lines' function to get the lane lines in an i
 
 * Draw line on top of original image
 <img src="test_images/solidWhiteCurve_transformed.jpg" width="480" alt="Combined Image" />
+
+
+Outcome
+---
+The proposed solution work with test images and videos. Needless to say that it failed miserably on challenge video. <br />
+One potential shortcoming with this approch is, the algorithm does not work well when there are sudden chages in lane lines or the lines are curved. 
+
+Possible Improvement
+---
+A possible improvement would be to have one function which would tell if the lane lines are straight or curved.  <br /> If the lane lines are straight then it would follow the above path but when the curve lines are detected then there should be another function which  <br /> would fit the higher order polynomial(may be second degree) on the data points.
