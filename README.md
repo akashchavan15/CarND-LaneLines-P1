@@ -15,3 +15,13 @@ Pipeline
 My pipeline mainly consist of ten functions which are explained below
 * Start with image or frame from video clip
 <img src="test_images/solidWhiteCurve.jpg" width="480" alt="Combined Image" />
+
+* Convert the image to gray scale
+<img src="test_images/solidWhiteCurve_gray.jpg" width="480" alt="Combined Image" />
+
+* Apply Gaussian filter to remove noise
+<img src="test_images/blurred.jpg" width="480" alt="Combined Image" />
+
+* Auto Canny Edge Detection
+I have come up with the auto canny edge function to get the lower and higer thresholds automatically for the canny edge detector. 
+<img src="test_images/solidWhiteCurve_auto_canny_edge.jpg" width="480" alt="Combined Image" />
