@@ -47,4 +47,6 @@ One potential shortcoming with this approch is, the algorithm does not work well
 
 Possible Improvement
 ---
-A possible improvement would be to have one function which would tell if the lane lines are straight or curved.  <br /> If the lane lines are straight then it would follow the above path but when the curve lines are detected then there should be another function which  <br /> would fit the higher order polynomial(may be second degree) on the data points.
+A possible improvement would be to have one function which would tell if the lane lines are straight or curved.  <br /> If the lane lines are straight then it would follow the above path but when the curve lines are detected then there should be another function which  would fit the higher order polynomial(may be second degree) on the data points.<br />
+
+The result can be seen in this [Video](https://github.com/akashchavan15/CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight.mp4)
