@@ -22,6 +22,6 @@ My pipeline mainly consist of ten functions which are explained below
 * Apply Gaussian filter to remove noise
 <img src="test_images/blurred.jpg" width="480" alt="Combined Image" />
 
-* Auto Canny Edge Detection
+* Auto Canny Edge Detection <br />
    I have come up with the auto canny edge function to get the lower and higer thresholds automatically for the canny edge detector. 
 <img src="test_images/solidWhiteCurve_auto_canny_edge.jpg" width="480" alt="Combined Image" />
